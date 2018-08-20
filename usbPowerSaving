@@ -1,0 +1,11 @@
+in
+/etc/modprobe.d
+
+run
+sudo nano 8192cu.conf
+
+add
+options 8192cu rtw_power_mgnt=0 rtw_enusbss=0
+
+
+to disable usb power saving and autosuspend
